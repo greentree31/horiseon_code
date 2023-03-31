@@ -4,69 +4,38 @@
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
 }
-/* The body has a light colored background*/
+
 body {
     background-color: #d9dcd6;
 }
-/* The main tag is located at the top of the webpage and has a bluish-gray color background*/
-main {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-    display: block;
-}
-/* This is a header h1 that has a large text*/
-h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-/* This sets the SEO color in the company name*/
-h1 .seo {
-    color: #d9dcd6;
-}
-/* This is a header h2 that has a smaller text than h1 header*/
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* This is a header h3 that has a smaller text than h2 header*/
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* This indicates the color of links*/
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* This indicates the font size used in paragraphs*/
 p {
     font-size: 16px;
 }
-/* This is part of the top section*/
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-}
 
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
+/* Headers section*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
     color: #ffffff;
+    position: relative;
 }
 
-img {
-    display: block;
-    margin: 10px auto;
-    /* max-width: 150px; */
-    max-height: 200px;
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1 .seo {
+    color: #d9dcd6;
+    font-size: 48px;
 }
 
 nav {
@@ -85,6 +54,38 @@ nav ul li {
     margin-left: 25px;
 }
 
+main {
+        display: inline-block;
+}
+
+/*This is the setting for the top image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* This is part of the MAIN section*/
+
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+    }
+
+section img {
+    max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -100,7 +101,7 @@ nav ul li {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* ASIDE section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +117,17 @@ nav ul li {
     color: #ffffff;
 }
 
+#benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* FOOTER section */
 footer {
     padding: 30px;
     clear: both;
@@ -125,4 +137,5 @@ footer {
 
 footer h2 {
     font-size: 20px;
+    margin-bottom: 0px;
 }
