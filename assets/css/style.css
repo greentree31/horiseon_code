@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16pt;
+    font-size: 16pt;
 }
 
 body {
@@ -25,6 +26,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: relative;
     position: relative;
 }
 
@@ -95,12 +97,6 @@ h2 {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 /* ASIDE section */
 .benefits {
     margin-right: 20px;
@@ -117,17 +113,6 @@ h2 {
     color: #ffffff;
 }
 
-#benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* FOOTER section */
 footer {
     padding: 30px;
     clear: both;
@@ -138,4 +123,6 @@ footer {
 footer h2 {
     font-size: 20px;
     margin-bottom: 0px;
+    margin-bottom: 0px;
 }
+
